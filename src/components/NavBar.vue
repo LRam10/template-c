@@ -6,7 +6,7 @@ const navLink = ref([
 ])
 </script>
 <template >
-    <nav class="p-6 bg-slate-600 w-48 h-full">
+    <nav class="p-6 bg-gray-950  h-full">
         <ul class="">
             <li v-for="item in navLink">{{item}}</li>
         </ul>
