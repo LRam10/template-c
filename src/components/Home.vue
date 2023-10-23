@@ -1,14 +1,13 @@
 <script setup lang="ts">
-
+import Banner from './Home/Banner.vue'
+import BannerList from './Home/BannerList.vue'
 </script>
 
 <template>
-<div class="h-full bg-slate-800 w-full">
-    <div>
-        <h1>Luis Ramirez</h1>
-    </div>
+<div class="h-full w-full">
+    <Banner/>
+    <BannerList/>
 </div>
 </template>
-
 <style scoped>
 </style>
